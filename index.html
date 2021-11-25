@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Django </title>
+</head>
+<style>
+    body{
+        background-color: #20282d;
+    }
+    .one{
+        color: #fff;
+        margin: 0;
+        font-size: 0.875rem;
+        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+        font-weight: 400;
+        line-height: 1.43;
+        letter-spacing: 0.01071em;
+        background-color: #101316;
+        overflow: hidden;
+        width: 100%;
+        min-width: 350px;
+        height: max-content;
+        
+    }
+    .two{
+    margin: 0;
+    
+    height: max-content;
+
+    width: 100%;
+    min-width: 350px;
+    }
+    .head{
+        background: #20282d;
+        color: rgb  (250, 250, 250,);
+        top: 0;
+        left: auto;
+        right: 0;
+        position: fixed;
+        width: 100%;
+        display: flex;
+        box-sizing: border-box;
+        flex-direction: column;
+        box-shadow: 0 2px 4px -1px rgba(0,0,0,.2),0 4px 5px 0 rgba(0,0,0,.14),0 1px 10px 0 rgba(0,0,0,.12)
+
+    }
+    .heatwo{
+        min-height: 64px;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0%;
+        position: relative;
+        width: 90%;
+        margin: auto;
+        box-sizing: inherit;
+    }
+    .claxx{
+        box-sizing: inherit;
+    }
+    .maix{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        max-width: 1200px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        box-sizing: inherit;
+        margin-top: 30px;
+        height: max-content;
+
+    }
+    h6{
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 20px;
+    }
+    .mainn{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+        column-gap: 20px;
+        row-gap: 20px;
+        height: fit-content;
+    }
+    .onxx{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    border-radius: 6px;
+    background: #20282d;
+    height: max-content;
+
+
+    }
+    .headd{
+    padding: 16px;
+    }
+    
+    h2{
+    color: #00bcb4;
+    margin: 0;
+    font-size: 1.5rem;
+}
+    h3{
+        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    margin: 12px;
+    }
+    .aza{
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 10px;
+        background-color: #101316;
+        border-radius: 11px;
+        box-sizing: inherit;
+        height: max-content;
+
+        }
+        p{
+            font-size: 18px;
+        }
+</style>
+<body>
+    <div class="one">
+    <main class="two">
+        <header class="head">
+            <div class="heatwo">
+                <h1>Django</h1>
+                <h2>Python </h2>
+            </div>
+        </header>
+        <div class="claxx">
+            <div class="maix">
+                <h6>Basic of Django </h6>
+                <div class="mainn">
+                    <div><div class="onxx">
+                        <div class="headd"><h2>Main Topic </h2></div>
+                        <div class="aza">
+                        <h6>we will discuss these Topic </h6>
+                        <h2>Object realtion mapper</h2>
+                        <h2>URLs Views</h2>
+                        <h2>Template</h2>
+                        <h2>Forms</h2>
+                        <h2>Authentication</h2>
+                        <h2>Admin</h2>
+                        <h2>Internationalization</h2>
+                        <h2>Security</h2></div>
+
+                    </div></div>
+
+                    <div><div class="onxx">
+                        <div class="headd"><h2>More Deatils</h2></div>
+                        <div class="aza">
+                            <h6>Extra Deatils are </h6>
+                            <h2>Model</h2>
+                            <h2>View</h2>
+                            <h2>Controller</h2>
+                            <h2>Database</h2>
+                            <h2>Session</h2>
+                            <h2>Cookies </h2>
+                            <h2>Ajax</h2>
+                            <h2>Services</h2>
+                            <h2></h2>
+                        </div>
+                    </div></div>
+
+                    <div><div class="onxx">
+                        <div class="headd"><h2>Basic Commands</h2></div>
+                        <div class="aza">
+                            <h6>start app</h6>
+                            <h2>django-admin startproject nameOfProject</h2>
+                            <h6>Run Server </h6>
+                            <h2>Python manage.py runserver</h2>
+                            <p>Run server on local machine</p>
+                        </div>
+                    </div></div>
+
+                    <div><div class="onxx"><div class="headd"><h2>Object Realtion Mapper</h2></div>
+                    <div class="aza">
+                        <p>we can modal data entierly in Python and we get rich Database API  for free we can write SQL if needed </p>
+                        <p>we can modal dataentierly in Python and we get rich Database API  for free we can write SQL if needed </p>
+                        <p>we can modal dataentierly in Python and we get rich Database API  for free we can write SQL if needed </p>
+                    </div>
+                    </div>
+                </div>
+ 
+
+
+
+
+
+
+                    <div><div class="onxx"><div class="headd"><h2>URL and Views</h2></div>
+                    <div class="aza">
+                        <p>A clean URL schema is important for app  Django Provids a god way</p>
+                        <p>we define schime or URLs in URL config  where we simply map out all the app where your will be re-dirted etc</p>
+                    </div>
+                </div>
+                    </div>
+
+                    <div><div class="onxx"><div class="headd"><h2>Template</h2></div>
+                    <div class="aza">
+                        <p>It is simaply the HTML Pages</p>
+                        <p>use for front end develpor and is flexible we can also use the Python logic in the template</p>
+                        <p>Same as simple HTML</p>
+                    </div>
+                    </div>
+                </div>
+
+
+                    <div><div class="onxx"><div class="headd"><h2>Forms</h2></div>
+                <div class="aza">
+                    <p>A poweful way the we can render the HTML and appply the Logic in Python </p>
+                    <p>Mostaly used in Input fields to handel data user can creat and upload data</p>
+                    <h1>import forms</h1>
+                </div></div>
+                </div>
+
+                    <div><div class="onxx"><div class="headd"><h2>Authentication</h2></div>
+                    <div class="aza">
+                        <p>It comes along with the authenications and sessions  and permissons to the user </p>
+                        <p>make easy for user that can Login and og out in the app</p>
+                        <p>we can secure pages also</p>
+                        <p>from django.contrib.auth.decorators import login_required</p>
+                    </div>
+                </div></div>
+
+                    <div><div class="onxx"><div class="headd"><h2>Admin</h2></div>
+                    <div class="aza">
+                        <p>It provide automatic and production ready admin Panel</p>
+                        <p>Admin can easily manage the content of the site </p>
+                        <p>Provides many Hooks for the customization</p>
+                        <p>from django.contrib import admin</p>
+                    </div>
+                </div></div>
+
+                    <div><div class="onxx"><div class="headd"><h2>Internationalization</h2></div>
+                    <div class="aza">
+                        <p>It provide us the method that we  can change the language on the base of time zone</p>
+                        <p>It is up to developers that what part of app should be translates in what time zone </p>
+                        <p>from django.utils.translation import gettext</p>
+                    </div>
+                </div></div>
+                    <div><div class="onxx"><div class="headd"><h2>Security</h2></div>
+                    <div class="aza">
+                        <p>It provids  a lot of security featues like</p>
+                        <h2>SQL injection</h2>
+                        <h2>Remote code Execution</h2>
+                        <h2>Cross SIte Request Forgery</h2>
+                        <h2>Cross site script</h2>
+                        <h2>Clickjacking</h2>
+                        <h2>Additional fetaurs</h2>
+                    </div>
+                </div></div>
+
+                    <div><div class="onxx"><div class="headd"><h2>Folder structure</h2></div>
+                    <div class="aza">
+                        <div><p>init_.py : Just for pyhton treat this folder as package</p></div>
+                    <p>setting.py : is used for the project setting of Projexct</p>
+                    <p>urls : include all URLs of the app and Links on click of  functions</p>
+                    </div>
+                </div></div>
+
+                <div><div class="onxx"><div class="headd"><h2>Creat a App</h2></div>
+                <div class="aza">
+                    <p>we can create appp in side Django Projects </p>
+                    <p>Like Big app having a large services and featurs as in App </p>
+                    <p>Command is : " python manage.py startapp nameofApp"  it will creat another folder in that </p>
+                </div>
+            </div></div>
+
+                <div><div class="onxx"><div class="headd"><h2>Admin Interface</h2></div>
+                <div class="aza">
+                    <p>provide ready to use UI for Admin Panel</p>
+                    <p>Make sure You have install all depencies foe admin panel check out at setting .py file</p>
+                    <p>we need to initize the Database </p>
+                    <p>python manage.py mirgant creatsuperuser</p>
+                    <p>Then we need to add it to URLs file    url(r'^admin/', include(admin.site.urls)),</p>
+                </div>
+            </div></div>
+
+                <div><div class="onxx"><div class="headd"><h2>Views</h2></div>
+                <div class="aza">
+                    <p>simply they are Python functions that take request and response to the request </p>
+                    <p>Response can be simply the HTML file or Documnet or Image  </p>
+                    <p>we can also render HTML pages in the response </p>
+                    <p>
+                        def hello(request):<br/>
+                           return render(request, "myapp/template/hello.html", {})</p>
+                </div>
+            </div></div>
+            
+                <div><div class="onxx"><div class="headd"><h2>Model View Controller</h2></div>
+                <div class="aza">
+                    <p>It is Made up of follwing three Patterns </p>
+                    <p>Model : Lowest form that is responsible for mantaining the data </p>
+                    <p>View : is response for Displaying the data</p>
+                    <p>Controller : software that interact between Model and view </p>
+                </div>
+            </div></div>
+
+                <div><div class="onxx"><div class="headd"><h2>Model</h2></div>
+                <div class="aza">
+                    <p>it is responsible for the managimg the Data of the application</p>
+                    <p>It response to the request from the view </p>
+                    <p>it is also responsible to instructions from controller to update itself</p>
+                </div>
+            </div></div>
+
+                <div><div class="onxx"><div class="headd"><h2>View</h2></div>
+                <div class="aza">
+                    <p>it Means Presenting data In particular form by controller decision to present data</p>
+                    <p>They are script base template for the PHP ASP and very easy to inregrate with AJAX technolgy </p>
+                    <p></p>
+                </div>
+            </div></div>
+
+                <div><div class="onxx"><div class="headd"><h2>Controller </h2></div>
+                <div class="aza">
+                    <p>It is responsible for responde the user input and  and perform interaction on data model view</p>
+                    <p>It recive input then validate data and perform Bussiness operations on it  </p>
+                </div>
+            </div></div>
+
+                <div><div class="onxx"><div class="headd"><h2>Urls</h2></div>
+                <div class="aza">
+                    <p>It is used for mapping and is done in URL.py file. When a request is made in a App it look in URL .py file if it  is present then it will renser the file other wise 404 page  </p>
+                    <p>from django.conf.urls import patterns, include, url</p>
+                </div>
+            </div></div>
+
+                <div><div class="onxx"><div class="headd"><h2>Template </h2></div>
+                <div class="aza">
+                <p>It provides us the way that we can write and cal pythin code in the HTML file and use then seprately It take three argumnets </p>
+                <p>Render functions : This function take three argumnets </p>
+                <p>Request : The inital request </p>
+                <p>Path to the Template : This is path relative to the TEMOPLATE  options in the project setting.py</p>
+                <p>Dictory of parameters : a dictory that contain all varibles needed for template </p>
+            </div>
+            </div></div>
+
+                <div><div class="onxx"><div class="headd"><h2>Model</h2></div>
+                <div class="aza">
+                    <p>Model is a class that represent the table and colletion in Data Base  they are define in model.py file </p>
+                    <p>After creating Model type  $python manage.py syncdb</p>
+                    <p>we can easily manuplate the data in Models </p>
+                </div>
+            </div></div>
+
+                <div><div class="onxx"><div class="headd"><h2>Page Redirecting</h2></div>
+                <div class="aza">
+                    <p>we can re-direct the user as we want because of certin resions or errors </p>
+                    <p>redirct method take as a argumnet you want to redirect as a string </p>
+                    <p>from django.shortcuts import render, redirect</p>
+                    <p></p>
+                </div>
+            </div></div>
+
+                <div><div class="onxx"><div class="headd"><h2>Sending E mails</h2></div>
+                <div class="aza">
+                    <p>It come along pre- install with SMTP package hostname, server name password contetct etc</p>
+                    <p>from django.core.mail import send_mail</p>
+                    <p>we can also attch details to the email and we can send one email to multiple peoples </p>
+                </div>
+            </div></div>
+
+                <div><div class="onxx"><div class="headd"><h2>Generic Views</h2></div>
+                <div class="aza">
+                    <p>In some case writting view as have seen earily is reallly heavy It offer a simple view that is called a generic view </p>
+                    <p>It offers a set of classes not functions classes that inherit one another </p>
+                    <p>import django.views.generic there are 10 views </p>
+                </div>
+            </div></div>
+
+                <div><div class="onxx"><div class="headd"><h2>Form Processing</h2></div>
+                <div class="aza">
+                    <p>It comes along with packeges and is vry easy to use them </p>
+                    <p>from django import forms</p>
+                    <p>we have to define all logic in the class() we need to define inherit Django classes  with form attribute </p>
+
+                </div>
+            </div></div>
+
+                <div><div class="onxx"><div class="headd"><h2>File Upload</h2></div>
+                <div class="aza">
+                <p>It is useful for Uploading files</p>
+                <p>Make sure you have install PIL library in Django </p>
+                <p>It take the Data and verify befor we upload on the server </p>
+                </div>
+            </div></div>
+
+                <div><div class="onxx"><div class="headd"><h2>Server</h2></div>
+                <div class="aza">
+                    <p>as far we have this Python server But it is only foe testing and development purpose in real world seniro we will use server like Apache and Ngnix </p>
+                    <p>wsgi.py is the file that we link with the Django and Server </p>
+                    <p>we will have to define the pathe in the file  and detils </p>
+                </div>
+            </div></div>
+
+                <div><div class="onxx"><div class="headd"><h2>Cookies</h2></div>
+                <div class="aza">
+                    <p>we want to store data for the client side  or visitors data as per request </p>
+                        <h2>Sessions</h2>
+                    <p>from client side we wnat to store useful data on web server </p>
+                    <p>Have sessions foe Cookies and  client side cookies have session ID for identifications </p>
+                    <p>'django.contrib.sessions.middleware.
+                        SessionMiddleware' </p>
+                        <p>information is store on Database and then</p>
+                </div>
+            </div></div>
+
+                <div><div class="onxx"><div class="headd"><h2>Caching</h2></div>
+                <div class="aza">
+                    <p>Means we want result of something as a calculation that we don,t perform </p>
+                    <p>Django comes along with the catching system For used in Dynamic frameworks </p>
+                    <p>Caching is done in Database and or file system and is done in Setting,py file </p>
+                    <p>python manage.py createcachetable </p>
+                    <p>we can catch the entire site and we can also cache a page as we want </p>
+                </div>
+            </div></div>
+
+                <div><div class="onxx"><div class="headd"><h2>Comments</h2></div>
+                <div class="aza">
+                    <p>The comments framework makes it easy to attach comments to any model in your app.</p>
+                    <p>then edit the setting.py file </p>
+                    <p>python manage.py syncdb</p>
+                </div>
+            </div></div>
+
+                <div><div class="onxx"><div class="headd"><h2>Ajax</h2></div>
+                <div class="aza">
+                    <p>It is used to reduce the number of pages load Mostaly used for best user experience </p>
+                    <p>we need to download the dajax library with witch we can develop easily and quickly in Loic in app in Javavscript  </p>
+                    <p>$ pip install django_dajax</p>
+                </div>  
+            </div></div>
+
+                <div><div class="onxx"><div class="headd"><h2>RSS</h2></div>
+                <div class="aza">
+                    <p>It comes along with the RSS by django.contrib.syndication.views.Feed class</p>
+                    <p>we can creat a latest field of comments done on the app define logic in feed.py  and we can put feed where we want  </p>
+                </div>
+            </div></div>
+
+            <div><div class="onxx"><div class="headd"><h2>Sessions</h2></div>
+            <div class="aza">
+                <p>session is a way with witch we can remember who is the user and what he have done in the app </p>
+                <p>Store session data on the server we have to import them to use</p>
+            </div>
+            </div></div>
+        
+            <div><div class="onxx"><div class="headd"><h2>Data base Managment System</h2></div>
+            <div class="aza">
+                <p>we can use differt models as we want in app Mostaly use SQL and store data</p>
+                <p>MySql and PostgrSql are more heavy types of data base SQLlite is liter form we can store data in a file</p>
+                <p>we can define the Queries in the Python classes </p>>
+            </div>
+             </div></div>
+
+            <div><div class="onxx"><div class="headd"><h2>SQLite Type</h2></div>
+            <div class="aza">
+            <p>It support Text  Numbers , Integer, Blogs bianay data audio or images  , Reals Numbers </p>
+                <h2>MYSQL </h2>
+            <p>It support much more than sql char,varachar, smallint, int ,Bigint,Floats, Double, large Nmbers</p>
+            <p>we have to creat database as Table </p>
+            </div>
+             </div></div>
+
+            <div><div class="onxx"><div class="headd"><h2>Tables</h2></div>
+            <div class="aza">
+            <p>we have to creat a table first and define all things in it as Class and Name </p>
+            <p>we have to define the Name and data types  in the class </p>
+            <p>Auto Increment allows us to update the data as we  enter the Data </p>
+            <p>Constarins : Not Null , Check,Default and more also  Data also need to be valid  </p>
+            </div>
+             </div></div>
+
+            <div><div class="onxx"><div class="headd"><h2>Insert</h2></div>
+            <div class="aza">
+                <p>it is used to insert the data to the class Or Object we have defined </p>
+                <p>Data will be enter behind the scen in the Object defined </p>
+            </div>
+             </div></div>
+
+             <div><div class="onxx"><div class="headd"><h2>SELECT</h2></div>
+             <div class="aza">
+             <p>It is used to select the Data fom The database and show in the UI or something else     </p>
+             <p>data is store in form of row and coloums  </p>
+             <p>SELECT * FROM flight:  it will select all colums from a Object</p>
+             
+            </div>
+              </div></div>
+              <div><div class="onxx"><div class="headd"><h2>Scalibality </h2></div>
+            <div class="aza">
+                <p>There are certin limitaion of a server it can handel limited nubers of requests  </p>
+                <p>So we use vaertical and Horizonatl scalling Mostaly use Horizonatl Scalling</p>
+                <p>Load Balancer is a haradware that diverge the Number of request to different server of app </p>
+            </div>
+            </div></div>
+
+            <div><div class="onxx"><div class="headd"><h2>Load Balancer Method</h2></div>
+            <div class="aza">
+                <p>A app can have 10 or more server for the app</p>
+                <p>Random choice send request randomaly </p>
+                <p>Round Robine : First Requesrt is send to the first server and second is to the second similRY  </p>
+                <p></p>
+            </div>
+            </div></div>
+
+            <div><div class="onxx"><div class="headd"><h2>Problums Log</h2></div>
+            <div class="aza">
+                <p>If  a user is login in to App aand is redirected to sercer One Next time if he is logged into another server and willnot be authenticated with session</p>
+                <p>so to identify the user we have ssveral methods</p>
+            </div>
+            </div></div>
+
+
+            <div><div class="onxx"><div class="headd"><h2>Sticky Session</h2></div>
+            <div class="aza">
+                <p>It will look if a user  is loogin in to 1 server will be diverted to One server and Knows him  and store information on server </p>
+            </div>
+            </div></div>
+
+
+            <div><div class="onxx"><div class="headd"><h2>Session in Database</h2></div>
+            <div class="aza">
+                <p>All sereves have access to data nase and Data is store in the Data base </p>
+                <p>So all data is store in Datbase and server find out if a user is login and what are other Information of a user and reconize a person </p>
+            </div>
+            </div></div>
+
+
+            <div><div class="onxx"><div class="headd"><h2>Client Side Session</h2></div>
+            <div class="aza">
+                <p>When A  PERSON VISIT A SITE is Issused a Cookies ansd that hold information of a user </p>
+                <p>On each request cookies are also send to the server to identify user </p>
+            </div>
+            </div></div>
+
+
+            <div><div class="onxx"><div class="headd"><h2>Auto Scalling</h2></div>
+            <div class="aza">
+                <p>having many server alike if a server failed out what will happen</p>
+                <p>Load balancer will send a Ping to  server if response is not getting back then it wil know a servicer is Fails and will not send request of user to that server</p>
+                
+            </div>
+            </div></div>
+
+            <div><div class="onxx"><div class="headd"><h2>Database Scaling</h2></div>
+            <div class="aza">
+                <p>in a app server Databases are running on  Onther servers and they have acces to then  </p>
+                <p>They also have limitaion so we have Partition on the databases and different parts of app can handel difernet form of Databases  </p>
+                <p>If Database server fail noNe of our App is going to work so we have </p>
+            </div>
+            </div></div>
+
+
+            <div><div class="onxx"><div class="headd"><h2>Database Replication</h2></div>
+            <div class="aza">
+                <p>Single-Primary Replication : Only One main function can write and update data and others can only read data If there are to many user comming and updating data It might Often Fail</p>
+                <p>Multi-Primary Replication : Threr are multiple ways we van read and write a Database But all Databases nedd to be Synchonrixe  update all at same time </p>
+                <p>Mostaly Multi-Primary is useef they often have some issues It a user deleta a data and One user Updata same Data at the same time them what will happen we have to define all details </p>
+            </div>
+            </div></div>
+            
+
+            <div><div class="onxx"><div class="headd"><h2>Cataching</h2></div>
+            <div class="aza">
+                <p>suppose we have a front pages of a App and page get data from Database and show result on each request  </p>
+                <p>If number  of request Increase then alot of load comes on the pages and app It make it solw </p>
+                <p>we can define it as Storing save version of Data that we can access it more quickly so we don,t need to make Number of requet to our data base  </p>
+                <p>One way is to do is On  the Browser Side we can ask the client Browser to save the copy of the Page so next time user make request local it from the LOcaly not from the Database  </p>
+            </div>
+            </div></div>
+            
+
+
+            <div><div class="onxx"><div class="headd"><h2>CatchinG</h2></div>
+            <div class="aza">
+                <p>Browser often do it because don,t make reqeuest and load data from the local storage </p>
+                <p>It make a process faster and good to server don,t make load on server </p>
+                <p>Cache-Control : maz-age=8600 when this time in seconds pass it make new version of page</p>
+                <p></p>
+            </div>
+            </div></div>
+            
+            <div><div class="onxx"><div class="headd"><h2>Server Side catching</h2></div>
+            <div class="aza">
+                <p>we can also persform server side Catchiog </p>
+                <p>we have multiple servers and these servers are communicating with each other and Database and Cache </p>
+                <p>There we store information that we don,t want to load rather to again recalculate </p>
+                <p>Djando also have a caching framework  Pre-view catching </p>
+            </div>
+            </div></div>
+            
+
+
+            <div><div class="onxx"><div class="headd"><h2>How</h2></div>
+            <div class="aza">
+                <h2>So how we can say that our web app is scaleable and secure we have to look each and every aspect of it and lowlevel details of it </h2>
+            </div>
+            </div></div>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+</body>
+</html>
